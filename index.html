@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header-bcg">
+      <div class="main-header main-layout flex space-between align-center">
+        <div class="logo ">Blogin<span>.</span></div>
+        <nav class="main-nav-container ">
+          <button class="btn-menu" onclick="toggleMenu()">☰</button>
+          <button class="btn-close-menu" onclick="toggleMenu()">x</button>
+          <ul class="nav-items clean-list flex">
+            <li><a href="#" class="btn">Journal</a></li>
+            <li><a href="#" class="btn">About</a></li>
+            <li><a href="#" class="btn">Work</a></li>
+            <li><a href="#" class="btn">Contact</a></li>
+          </ul>
+        </nav>
+         </div>
+      </header>
+   
+    <main class="main main-layout">
+      <section class="main-content">
+        <div class="card flex ">
+          <img src="/img/001.jpg" alt="" />
+          <div class="card-main-content">
+            <h1 class="card-title">Duis aute irure dolor in henderit in voluptate.</h1>
+            <p class="card-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              saepe nihil doloribus magni 
+            </p>
+            <p class="card-p">
+              ut cupiditate illum, praesentium illo
+              quaerat rem fuga numquam dolore nobis ad. Tempora officia enim
+              quam modi.
+            </p>
+            <a href="#" class="btn card-btn"> continue reading</a>
+          </div>
+        </div>
+        <div class="card flex ">
+          <img src="/img/002.jpg" alt="" />
+          <div class="card-main-content flex col">
+            <h1 class="card-title">Duis aute irure dolor in henderit in voluptate.</h1>
+            <p class="card-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              saepe nihil doloribus magni
+            </p>
+            <p class="card-p"> ut cupiditate illum, praesentium illo
+              quaerat rem fuga numquam dolore nobis ad. Tempora officia enim
+              quam modi.</p>
+            <a href="#" class="btn card-btn"> continue reading</a>
+          </div>
+        </div>
+        <div class="card flex ">
+          <img src="/img/003.jpg" alt="" />
+          <div class="card-main-content flex col">
+            <h1 class="card-title">Duis aute irure dolor in henderit in voluptate.</h1>
+            <p class="card-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              saepe nihil doloribus magni 
+            </p>
+            <p class="card-p">ut cupiditate illum, praesentium illo
+              quaerat rem fuga numquam dolore nobis ad. Tempora officia enim
+              quam modi.</p>
+            <a href="#" class="btn card-btn"> continue reading</a>
+          </div>
+        </div>
+      </section>
+      <div class="paging flex space-between align-center">
+        <a href="#" class="btn"> previous</a>
+        <a href="#" class="btn"> next </a>
+      </div>
+     </main>
+      <footer class="main-footer  flex col align-center ">
+        <div class="logo">Blogin<span>.</span></div>
+        <h5 class="rights"> © 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+          Pixelhint.com</h5>
+         
+        </h2>
+        <div class="contact-list flex row">
+          <div><img src="/img/facebook.png" alt="" /></div>
+          <div><img src="/img/twitter.png" alt="" /></div>
+          <div><img src="/img/instagram.png" alt="" /></div>
+          <div><img src="/img/linkedin.png" alt="" /></div>
+        </div>
+      </footer>
+   
+    <script>
+     function toggleMenu(){
+      document.body.classList.toggle('menu-open')
+     }
+    </script>
+  </body>
+</html>

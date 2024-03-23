@@ -1,0 +1,50 @@
+/* flex */
+
+.flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+.flex.col {
+  flex-direction: column;
+}
+
+.clean-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+.btn:hover {
+  color: var(--clr6);
+  cursor: pointer;
+  border-color: var(--clr6);
+}
+li:hover {
+  border-bottom: 4px solid var(--clr6);
+}
+
+.card-btn:hover::after {
+  color: var(--clr6);
+  /* color: red; */
+  cursor: pointer;
+  border-color: var(--clr6);
+  padding-inline-end: 1rem;
+  content: " →";
+}
+
+.main-nav-container button:hover {
+  cursor: pointer;
+}
