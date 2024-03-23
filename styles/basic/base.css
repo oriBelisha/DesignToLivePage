@@ -20,6 +20,32 @@ a {
   text-decoration: none;
   color: var(--clr4);
 }
+
+.contact-list div{
+  display: flex;
+  /* color: var(--clr4); */
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  width: 1.85em;
+  height: 1.85em;
+  font: 0.8em;
+  background-color: var(--clr7);
+}
+.facebook:hover{
+  background-color:#3b5998 ;
+  color: white;
+}
+.twitter:hover{
+  background-color: #55acee;
+  color:white ;
+}
+
+.linkedin:hover{
+  background-color: #007bb6;
+  color:white ;
+}
+
 .card a {
   /* max-width: fit-content; */
   align-self: flex-start;
