@@ -4,15 +4,15 @@
 @import "setup/typography.css";
 
 /* base */
-@import "basic/layout.css";
 @import "basic/base.css";
 @import "basic/helpers.css";
+@import "basic/layout.css";
 
 /* components */
-@import "components/footer.css"; 
-@import "components/modal.css"; 
-@import "components/card.css"; 
 @import "components/header.css"; 
+@import "components/card.css"; 
+@import "components/modal.css"; 
+@import "components/footer.css"; 
 /* @import "components/"  */
 
 
