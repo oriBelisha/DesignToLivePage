@@ -32,15 +32,15 @@
   cursor: pointer;
   border-color: var(--clr6);
 }
-li:hover {
-  border-bottom: 4px solid var(--clr6);
+.nav-items li:hover {
+  box-shadow: inset 0px -6px 3px 0px var(--clr6);
 }
 
 .card-btn:hover::after {
   color: var(--clr6);
   /* color: red; */
   cursor: pointer;
-  border-color: var(--clr6);
+  /* border-color: var(--clr6); */
   padding-inline-end: 1rem;
   content: " →";
 }

@@ -1,0 +1,48 @@
+
+.contact-list div:hover {
+    cursor: pointer;
+  }
+  .contact-list div{
+    display: flex;
+    /* color: var(--clr4); */
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 1.85em;
+    height: 1.85em;
+    font: 0.8em;
+    background-color: var(--clr7);
+  }
+  .facebook:hover{
+    background-color:#3b5998 ;
+    color: white;
+  }
+  .twitter:hover{
+    background-color: #55acee;
+    color:white ;
+  }
+  .github:hover{
+    background-color:black ;
+    color:white ;
+  }
+  .linkedin:hover{
+    background-color: #007bb6;
+    color:white ;
+  }
+  .main-footer .logo {
+    color: var(--clr1);
+    font-weight: 800;
+  }
+  .main-footer {
+    padding-top: 2.2rem;
+    background-color: var(--clr8);
+  }
+
+  .main-footer > * {
+    margin: 0;
+    margin-bottom: 2.5rem;
+  }
+  .contact-list{
+    gap:1rem
+  }
+

@@ -1,0 +1,47 @@
+.card a {
+    /* max-width: fit-content; */
+    align-self: flex-start;
+  }
+  .card-btn , .modal a{
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.25rem;
+    padding: 0.625rem;
+    border-color: var(--clr4);
+  }
+  .card-p {
+    /* height: 230px; */
+    margin: 0 0 0 0;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+  }
+  .card-main-content > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+  
+  }
+  .card > * {
+    max-height: 100%;
+  }
+  .card-main-content {
+    width: 100%;
+  }
+  .card-main-content > * {
+    max-height: 100%;
+  }
+  
+  .card {
+    flex-direction: row;
+    gap: 3rem;
+    /* max-height: 300px; */
+    margin-bottom: 5rem;
+  }
+  .card-main-content {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
